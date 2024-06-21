@@ -11,6 +11,9 @@
     opacity: 0px;
     border: 2px solid #121212;
     border-right: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 15px;
 }
 
 .search button{
