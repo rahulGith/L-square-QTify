@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Button text={"Give Feedback"}/>
-      <Searchbar/>
+      <Searchbar placeholder={"Search a song of your choice"}/>
     </div>
   );
 }
