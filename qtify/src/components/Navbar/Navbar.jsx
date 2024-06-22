@@ -7,7 +7,7 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <div className='navbar'>
-        <img src={logo} alt="Qtify" className='logo' />
+        <img src={logo} alt="Logo" className='logo' width={67} height={34}/>
         <Searchbar placeholder={"Search a song of your choice"}/>
         <Button text={"Give Feedback"}/>
     </div>
