@@ -9,3 +9,7 @@
     font-size: 18px;
     font-weight: 600;
 }
+
+.button:hover{
+    cursor: pointer;
+}
