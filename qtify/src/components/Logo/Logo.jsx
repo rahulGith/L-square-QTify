@@ -3,8 +3,8 @@ import LogoImage from "../../assets/logo.png";
 
 const Logo = () => {
   return (
-    <div>
-      <img className="logo" src={LogoImage} alt="Logo" width={67} height={34} />
+    <div className="logo">
+      <img src={LogoImage} alt="Logo" width={67} height={34} />
     </div>
   );
 };
