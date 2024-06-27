@@ -1,13 +1,11 @@
-.button{
-    width: 170px;
-    height: 47px;
-    border-radius: 12px;
-    padding: 10px 16px 10px 16px;
-    background: #121212;
-    border: 1px solid #34C94B;
-    color:#34C94B;
-    font-size: 18px;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-    cursor: pointer;
+.button {
+	margin-left: 25px;
+	cursor: pointer;
+	background-color: var(--color-black);
+	border-radius: 10px;
+	border: none;
+	font-size: 18px;
+	font-weight: 600;
+	color: var(--color-primary);
+	padding: 10px 20px;
 }
