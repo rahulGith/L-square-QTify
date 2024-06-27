@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { fetchTopAlbums, fetchNewAlbums, fetchAllSongs } from "../apicalls/Apicalls";
-import NavBar from "../components/NavBar/NavBar.jsx";
+// import NavBar from "../components/NavBar/NavBar.jsx";
 import SearchBar from "../components/SearchBar/SearchBar.jsx";
 import styles from "./LandingPage.module.css";
 import HeroSection from "../components/HeroPage/HeroSection.jsx";
@@ -72,7 +72,7 @@ const LandingPage = () => {
   const dropdownData = topAlbumData?.concat(newAlbumData);
   return (
     <>
-      <NavBar data={dropdownData} logo={true} search={true} feedback={true} />
+      {/* <NavBar data={dropdownData} logo={true} search={true} feedback={true} /> */}
       <div className={styles.landingPageSearchWrapper}>
         <SearchBar
           placeholder="Search a album of your choice"
