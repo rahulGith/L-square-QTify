@@ -4,6 +4,8 @@ import Logo from "../Logo/Logo";
 import SearchBar from "../SearchBar/SearchBar.jsx";
 import FeedBackModal from "../FeedBackModal/FeedBackModal";
 import { useNavigate } from "react-router-dom";
+import Button from "../Button/Button.jsx";
+
 const NavBar = ({ data, logo = false, search = false, feedback = false }) => {
   const [isFeedBackModalOpen, setIsFeedBackModalOpen] = useState(false);
   const navigate = useNavigate();
@@ -22,19 +24,14 @@ const NavBar = ({ data, logo = false, search = false, feedback = false }) => {
         </div>
         {search ? (
           <div className={styles.searchWrapper}>
-            <SearchBar
-              placeholder="Search a album of your choice"
-              data={data}
-            />
+            <SearchBar placeholder="Search a song of your choice" data={data} />
           </div>
         ) : null}
         {feedback ? (
-          <div
-            className={styles.nav_link}
+          <Button
+            text="Give Feedback"
             onClick={() => toggleFeedBackModal(true)}
-          >
-            Feedback
-          </div>
+          />
         ) : null}
       </nav>
       <FeedBackModal

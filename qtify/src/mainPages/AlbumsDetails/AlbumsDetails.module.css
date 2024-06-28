@@ -10,10 +10,10 @@
 }
 
 .leftArrow {
-	background-color: var(--color-primary);
+	background-color: var(--color-black);
 	width: 40px;
 	height: 40px;
-	border: 1px solid var(--color-primary);
+	border: 1px solid var(--color-black);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -111,7 +111,7 @@
 	gap: 10px;
 	border-radius: 12px;
 	background: black;
-	border: 1px solid var(--color-primary);
+	border: 1px solid var(--color-white);
 	cursor: pointer;
 }
 
